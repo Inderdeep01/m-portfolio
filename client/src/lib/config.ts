@@ -16,7 +16,7 @@ export interface Project {
 
 export const CONFIG = {
   personal: {
-    name: "Alex Dev",
+    name: "Manmehakpreet Singh",
     title: "Senior Full-Stack Engineer",
     email: "alex@example.com",
     location: "San Francisco, CA",
