@@ -37,9 +37,16 @@ export function Experience() {
                     {job.period}
                   </span>
                 </div>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-muted-foreground leading-relaxed mb-4">
                   {job.description}
                 </p>
+                {job.achievements && (
+                  <ul className="list-disc list-outside ml-4 space-y-2 text-muted-foreground text-sm">
+                    {job.achievements.map((achievement, i) => (
+                      <li key={i}>{achievement}</li>
+                    ))}
+                  </ul>
+                )}
               </div>
             </motion.div>
           ))}

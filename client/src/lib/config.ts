@@ -36,22 +36,38 @@ export const CONFIG = {
   },
   experience: [
     {
-      role: "Senior Full-Stack Engineer",
-      company: "FinTech Solutions Inc.",
+      role: "Full-Stack Software Engineer (Full-Time)",
+      company: "TMH Solutions",
       period: "2021 - Present",
-      description: "Leading the modernization of legacy financial reporting systems. Architected a microservices-based invoicing platform processing $50M+ monthly."
+      description: "Leading the development of enterprise-grade financial applications. Architecting scalable solutions using .NET Core and Angular.",
+      achievements: [
+        "Architected and maintained enterprise-grade financial applications using .NET Core and Angular.",
+        "Optimized SQL database performance for high-volume transaction processing.",
+        "Led the migration of legacy monoliths to microservices architecture in Azure.",
+        "Collaborated with cross-functional teams to deliver features for invoicing and reporting."
+      ]
     },
     {
-      role: "Software Engineer II",
-      company: "Global Enterprise Corp",
+      role: "Contract Software Developer",
+      company: "Multiple Clients",
+      period: "2021 - Present (Parallel)",
+      description: "Delivering custom software solutions for diverse clients in fintech and logistics sectors.",
+      achievements: [
+        "Delivered custom software solutions for diverse clients in fintech and logistics.",
+        "Integrated third-party APIs (Stripe, SendGrid, ERPs) to automate business workflows.",
+        "Provided technical consultation and system design for cloud-native deployments."
+      ]
+    },
+    {
+      role: "Full-Stack Developer",
+      company: "Earlier Professional Experience",
       period: "2018 - 2021",
-      description: "Developed core banking modules using Angular and .NET. Reduced API latency by 40% through aggressive caching and query optimization."
-    },
-    {
-      role: "Full Stack Developer",
-      company: "Tech Start LLC",
-      period: "2016 - 2018",
-      description: "Built and deployed multiple SaaS products from scratch using the MEAN stack and Azure."
+      description: "Focused on building and supporting core business applications.",
+      achievements: [
+        "Developed and supported core business applications using C# and Angular.",
+        "Implemented responsive UI designs ensuring cross-browser compatibility.",
+        "Maintained CI/CD pipelines to ensure reliable deployment cycles."
+      ]
     }
   ],
   projects: [
